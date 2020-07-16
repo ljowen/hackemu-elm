@@ -38,6 +38,10 @@ body {
   grid-row-end: 1;
 }
 
+li.active::after {
+  content: "<";
+}
+
 h1 {
   font-size: 1rem;
 }
